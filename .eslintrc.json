@@ -13,7 +13,8 @@
   ],
   "rules": {
     "react/prop-types": "off", // We turn off prop-types rule, as we will use TypeScript's types instead.
-    "semi": [2, "always"]
+    "semi": [2, "always"],
+    "jsx-a11y/anchor-is-valid": "off"
   },
   "settings": {
     "react": {

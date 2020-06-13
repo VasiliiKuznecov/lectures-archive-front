@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "id": "math",
+      "name": "Математика",
+      "color": "#ff5500",
+      "iconUrl": "/images/math.svg"
+    },
+    {
+      "id": "programming",
+      "name": "Программирование",
+      "color": "#5599ff",
+      "iconUrl": "/images/programming.svg"
+    },
+    {
+      "id": "history",
+      "name": "История",
+      "color": "#00ffa1",
+      "iconUrl": "/images/history.svg"
+    },
+    {
+      "id": "science",
+      "name": "Наука",
+      "color": "#c955ff",
+      "iconUrl": "/images/science.svg"
+    },
+    {
+      "id": "architecture",
+      "name": "Архитектура",
+      "color": "#ffb800",
+      "iconUrl": "/images/architecture.svg"
+    },
+    {
+      "id": "design",
+      "name": "Дизайн",
+      "color": "#ce00ad",
+      "iconUrl": "/images/design.svg"
+    },
+    {
+      "id": "education",
+      "name": "Образование",
+      "color": "#00d115",
+      "iconUrl": "/images/education.svg"
+    },
+    {
+      "id": "short-lectures",
+      "name": "Короткие лекции",
+      "color": "#7dde01"
+    },
+    {
+      "id": "medium-lectures",
+      "name": "Средние лекции",
+      "color": "#ffc700"
+    },
+    {
+      "id": "long-lectures",
+      "name": "Длинные лекции",
+      "color": "#e80000"
+    }
+  ]
+}

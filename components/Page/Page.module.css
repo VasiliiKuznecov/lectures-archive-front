@@ -1,0 +1,15 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+    padding: 70px 60px;
+}
+
+.header,
+.footer {
+    flex-shrink: 0;
+}

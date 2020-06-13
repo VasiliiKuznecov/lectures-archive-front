@@ -1,25 +1,32 @@
 import React from 'react';
 
-import Head from 'next/head';
 import { useRouter } from 'next/router';
+
+import { getCategoryById } from '../../helpers/categories';
+
+import Page from '../../components/Page';
+import Title from '../../components/Title';
 
 const Category: React.FC = () => {
     const router = useRouter();
     const { id } = router.query;
 
-    return (
-      <div className="container">
-          <Head>
-                <title>Create Next App</title>
-                <link rel="icon" href="/favicon.ico" />
-          </Head>
+    if (typeof id !== 'string') {
+        return null;
+    }
 
-          <main>
-                <h1 className="title">
-                    Категория {id}
-                </h1>
-          </main>
-      </div>
+    const category = getCategoryById(id);
+
+    if (!category) {
+        return null;
+    }
+
+    return (
+        <Page title={category.name}>
+            <Title>
+                {category.name}
+            </Title>
+        </Page>
     );
 };
 
