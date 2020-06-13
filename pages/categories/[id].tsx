@@ -1,7 +1,9 @@
+import React from 'react';
+
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-export default function Category() {
+const Category: React.FC = () => {
     const router = useRouter();
     const { id } = router.query;
 
@@ -19,4 +21,6 @@ export default function Category() {
           </main>
       </div>
     );
-}
+};
+
+export default Category;

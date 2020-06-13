@@ -1,8 +1,10 @@
+import React from 'react';
+
 import Head from 'next/head';
 
 import Footer from '../components/Footer';
 
-export default function Index() {
+const Index: React.FC = () => {
     return (
       <div className="container">
           <Head>
@@ -19,4 +21,6 @@ export default function Index() {
           </main>
       </div>
     );
-}
+};
+
+export default Index;
