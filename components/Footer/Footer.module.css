@@ -1,11 +1,9 @@
 .container {
-    text-align: center;
-    background-color: #252525;
     padding: 60px 0;
-
-    font-family: Roboto;
+    color: #ffd700;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    color: #ffd700;
+    text-align: center;
+    background-color: #252525;
 }
