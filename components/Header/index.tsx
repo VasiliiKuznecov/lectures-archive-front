@@ -21,7 +21,7 @@ const Header: React.FC = () => {
     const router = useRouter();
 
     return (
-        <div className={styles.container}>
+        <header className={styles.container}>
             <div className={styles.title}>Архив лекций ЗМШ</div>
             <div className={styles['menu-wrapper']}>
                 <div className={styles.menu}>
@@ -43,7 +43,7 @@ const Header: React.FC = () => {
                     Сайт ЗМШ
                 </a>
             </div>
-        </div>
+        </header>
     );
 };
 

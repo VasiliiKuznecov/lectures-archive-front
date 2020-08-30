@@ -2,10 +2,11 @@ import React from 'react';
 
 import { useRouter } from 'next/router';
 
-import { getCategoryById } from '../../helpers/categories';
+import { getCategoryById, getCategoryLectures } from '../../helpers/data';
 
 import Page from '../../components/Page';
 import Title from '../../components/Title';
+import Lecture from '../../components/Lecture';
 
 const Category: React.FC = () => {
     const router = useRouter();
@@ -16,6 +17,7 @@ const Category: React.FC = () => {
     }
 
     const category = getCategoryById(id);
+    const lectures = getCategoryLectures(id);
 
     if (!category) {
         return null;
@@ -26,6 +28,7 @@ const Category: React.FC = () => {
             <Title>
                 {category.name}
             </Title>
+            {lectures.map(lecture => <Lecture key={lecture.id} lecture={lecture} />)}
         </Page>
     );
 };

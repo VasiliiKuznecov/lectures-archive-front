@@ -17,7 +17,7 @@ const CategoryCard: React.FC<Props> = ({ category, className }) => {
     const icon = category.iconUrl && `url(${category.iconUrl})`;
 
     return (
-        <div className={classNames(className, styles.wrapper)}>
+        <article className={classNames(className, styles.wrapper)}>
             <Link href="/categories/[id]" as={`/categories/${category.id}`}>
                 <a className={styles.link}>
                     <div className={styles.container}>
@@ -27,7 +27,7 @@ const CategoryCard: React.FC<Props> = ({ category, className }) => {
                     </div>
                 </a>
             </Link>
-        </div>
+        </article>
     );
 };
 

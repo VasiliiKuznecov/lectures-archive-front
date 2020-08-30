@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { getCategories } from '../../helpers/categories';
+import { getCategories } from '../../helpers/data';
 
 import Page from '../../components/Page';
 import Title from '../../components/Title';
@@ -12,7 +12,7 @@ const Categories: React.FC = () => {
     const categories = getCategories();
 
     return (
-      <Page title="Категории">
+        <Page title="Категории">
             <Title>
                 Категории
             </Title>
@@ -25,7 +25,7 @@ const Categories: React.FC = () => {
                     />
                 ))}
             </div>
-      </Page>
+        </Page>
     );
 };
 

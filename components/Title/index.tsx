@@ -4,9 +4,9 @@ import styles from './Title.module.css';
 
 const Title: React.FC = ({ children }) => {
     return (
-        <div className={styles.title}>
+        <h2 className={styles.title}>
             {children}
-        </div>
+        </h2>
     );
 };
 

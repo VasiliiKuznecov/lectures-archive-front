@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Head from 'next/head';
 
@@ -20,9 +20,9 @@ const Page: React.FC<Props> = ({ title, children }) => {
             </Head>
 
             <Header />
-            <div className={styles.content}>
+            <main className={styles.content}>
                 {children}
-            </div>
+            </main>
             <Footer />
         </div>
     );
