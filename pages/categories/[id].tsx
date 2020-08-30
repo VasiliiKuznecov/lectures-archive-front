@@ -7,6 +7,7 @@ import { getCategoryById, getCategoryLectures } from '../../helpers/data';
 import Page from '../../components/Page';
 import Title from '../../components/Title';
 import Lecture from '../../components/Lecture';
+import LecturesList from '../../components/LecturesList';
 
 const Category: React.FC = () => {
     const router = useRouter();
@@ -28,6 +29,7 @@ const Category: React.FC = () => {
             <Title>
                 {category.name}
             </Title>
+            <LecturesList lectures={lectures} />
             {lectures.map(lecture => <Lecture key={lecture.id} lecture={lecture} />)}
         </Page>
     );

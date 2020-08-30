@@ -8,6 +8,7 @@ import { Lecture as LectureType } from '../../types/lectures';
 import Button from '../Button';
 
 import styles from './Lecture.module.css';
+import LecturesList from '../LecturesList';
 
 type Props = {
     lecture: LectureType;
