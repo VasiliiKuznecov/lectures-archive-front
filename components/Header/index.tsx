@@ -22,7 +22,11 @@ const Header: React.FC = () => {
 
     return (
         <header className={styles.container}>
-            <div className={styles.title}>Архив лекций ЗМШ</div>
+            <div className={styles.title}>
+                <Link href="/">
+                    <a className={styles.link}>Архив лекций ЗМШ</a>
+                </Link>
+            </div>
             <div className={styles['menu-wrapper']}>
                 <div className={styles.menu}>
                     {menu.map(item => {
