@@ -7,6 +7,7 @@ import Button from '../Button';
 import LinkList from '../LinkList';
 
 import styles from './Lecture.module.css';
+import LecturesList from '../LecturesList';
 
 type Props = {
     lecture: LectureType;

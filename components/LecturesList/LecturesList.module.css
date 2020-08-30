@@ -1,0 +1,8 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element {
+    margin: 0 25px 163px 0;
+}

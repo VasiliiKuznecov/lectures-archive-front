@@ -1,0 +1,29 @@
+.wrapper {
+    cursor: pointer;
+    width: 420px;
+}
+
+.previewPic {
+    background: #909090;
+    background-size: contain;
+    width: 420px;
+    height: 236px;
+    margin: 0 0 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #909090;
+}
+
+.lectureName,
+.lector {
+    font-size: 29px;
+    line-height: 32px;
+}
+
+.lectureName {
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.lector {
+
+}
