@@ -11,6 +11,11 @@
     margin: 20px 0 0;
 }
 
+.content {
+    position: relative;
+    z-index: 1;
+}
+
 .cross {
     position: absolute;
     top: 30px;
@@ -39,6 +44,7 @@
 }
 
 .video-container {
+    flex: none;
     width: 640px;
 }
 
@@ -86,4 +92,83 @@
 
 .title + .text {
     margin: 5px 0 0;
+}
+
+.after-lecture {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lecture:not(.active),
+.after-lecture:not(.active) {
+    display: none;
+}
+
+.after-lecture-main {
+    flex: none;
+    width: 614px;
+}
+
+.conclusion-title {
+    margin: 0 0 15px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.conclusion-text {
+    font-weight: 500;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 26px;
+    white-space: pre-wrap;
+}
+
+.materials {
+    margin: 40px 0 0;
+}
+
+.contacts {
+    margin: 40px 0 0;
+}
+
+.presentation-link {
+    padding: 0 48px 0;
+}
+
+.presentation-link > a {
+    color: #59f;
+    text-decoration: none;
+}
+
+.presentation-link-icon {
+    width: 193px;
+    height: 240px;
+    margin: 0 auto 10px;
+    background-image: url(assets/attachment.svg);
+}
+
+.presentation-link-text {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+}
+
+.background,
+.background-image,
+.background-gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.background-image {
+    background-size: cover;
+}
+
+.background-gradient {
+    background: linear-gradient(75.82deg, rgba(0, 0, 0, 0.96) 41.39%, rgba(0, 0, 0, 0) 141.68%);
 }
