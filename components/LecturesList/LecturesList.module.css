@@ -6,3 +6,9 @@
 .element {
     margin: 0 25px 163px 0;
 }
+
+@media all and (max-width: 1026px) {
+    .element {
+        margin-bottom: 48px;
+    }
+}

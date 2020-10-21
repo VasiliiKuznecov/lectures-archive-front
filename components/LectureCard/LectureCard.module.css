@@ -1,11 +1,13 @@
 .wrapper {
     cursor: pointer;
     width: 420px;
+    position: relative;
 }
 
 .previewPic {
+    position: relative;
     background: #909090;
-    background-size: contain;
+    background-size: cover;
     width: 420px;
     height: 236px;
     margin: 0 0 15px 0;
@@ -26,4 +28,13 @@
 
 .lector {
 
+}
+
+.duration {
+    position: absolute;
+    right: 23px;
+    bottom: 17px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
 }
