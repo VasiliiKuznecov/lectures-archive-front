@@ -1,7 +1,8 @@
-import * as React from "react";
+import * as React from 'react';
+
 import { Lecture } from '../../types/lectures';
-import styles from "./LecturesList.module.css";
-import LectureCard from "../LectureCard";
+import LectureCard from '../LectureCard';
+import styles from './LecturesList.module.css';
 
 
 type Props = {
