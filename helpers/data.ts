@@ -7,9 +7,11 @@ import { Lecture } from '../types/lectures';
 export const getCategories = (): Array<Category> => categories.items;
 
 export const getCategoryById = (id: string): Category | undefined => {
-    return categories.items.find(category => category.id === id);
+    return getCategories().find(category => category.id === id);
 };
 
+export const getLectures = (): Array<Lecture> => lectures.items;
+
 export const getCategoryLectures = (id: string): Array<Lecture> => {
-    return lectures.items.filter(lecture => lecture.categories.includes(id));
+    return getLectures().filter(lecture => lecture.categories.includes(id));
 };

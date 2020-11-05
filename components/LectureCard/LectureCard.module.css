@@ -1,14 +1,14 @@
 .wrapper {
-    cursor: pointer;
     width: 420px;
+    cursor: pointer;
 }
 
 .previewPic {
-    background: #909090;
-    background-size: contain;
     width: 420px;
     height: 236px;
     margin: 0 0 15px 0;
+    background: #909090;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0 0 10px #909090;
 }
@@ -20,10 +20,6 @@
 }
 
 .lectureName {
-    font-weight: 600;
     margin: 0 0 5px 0;
-}
-
-.lector {
-
+    font-weight: 600;
 }

@@ -1,0 +1,48 @@
+.wrapper {
+    position: relative;
+    margin: -10px -60px;
+    padding: 10px 60px;
+    overflow: hidden;
+}
+
+.wrapper :global(.slick-list) {
+    overflow: visible;
+}
+
+.element {
+    margin: 0 auto;
+}
+
+.arrow-control {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80px;
+    height: 236px;
+    padding: 10px 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    transition: opacity 0.3s ease;
+}
+
+.arrow-control.disabled {
+    opacity: 0;
+}
+
+.arrow-control.prev {
+    left: 0;
+    transform: rotateZ(180deg);
+}
+
+.arrow-control.next {
+    right: 0;
+}
+
+.arrow {
+    width: 17px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url(./assets/arrow.svg);
+    background-position: center;
+}

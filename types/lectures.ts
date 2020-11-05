@@ -21,4 +21,5 @@ export type Lecture = {
         name: string;
         url: string;
     }>;
+    categories: Array<string>;
 };
