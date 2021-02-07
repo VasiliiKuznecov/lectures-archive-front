@@ -301,6 +301,34 @@
         "design",
         "short-lectures"
       ]
+    },
+    {
+      "id": "raskraski-graphov-no-video-10",
+      "name": "Квадратичный закон взаимности Гаусса и его квадратичный закон невзаимности",
+      "description": "Хороший вкус и как его развивать.",
+      "previewImageUrl": "https://images.squarespace-cdn.com/content/v1/596fdea620099e91f5aa8c65/1570696981285-5K0ZA9SR2PKQQ739D7ZW/ke17ZwdGBToddI8pDm48kFyD7pzB8zoMIVY5aiUuFlp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jG2lbcDYBOeMi4OFSYem8DMb5PTLoEDdB05UqhYu-xbnSznFxIRsaAU-3g5IaylIg/DSC_8327.jpg?format=1500w",
+      "lector": {
+        "name": "Андрей Райгородский",
+        "description": "Д. ф.-м. н., Директор Физтех-школы прикладной математики и информатики МФТИ"
+      },
+      "conclusion": "Развивайте свой вкус. Ведь каждый из нас что-то создает или создаст в своей жизни. Будь то стартап, обустройство своего дома, написание объявления в подъезде, выкладывание фоточки в инстаграм, программирование сервиса, воспитание детей.\nВсё это можно делать лучше, красивее, удобнее и понятнее. Достаточно начать развивать свой вкус.\nВерю, что любой человек может с этим справиться, никто не рождается с хорошим чувством вкуса.",
+      "presentationUrl": "https://www.apple.com/ru/apple-events/september-2019/",
+      "links": [
+        {
+          "name": "Социолог Михаил Соколов о теории классового вкуса, процессе цивилизации и воспитании вкуса у детей",
+          "url": "https://postnauka.ru/video/70988"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Вконтакте",
+          "url": "https://vk.com/pushinandrej"
+        }
+      ],
+      "categories": [
+        "math",
+        "long-lectures"
+      ]
     }
   ]
 }

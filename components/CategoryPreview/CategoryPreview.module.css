@@ -1,0 +1,51 @@
+.header {
+    margin: 0 0 40px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    color: unset;
+    text-decoration: none;
+}
+
+.arrow {
+    display: inline-block;
+    width: 17px;
+    height: 24px;
+    margin: 0 0 0 10px;
+    background-image: url(../../assets/arrow.svg);
+    background-position: center;
+}
+
+.more-link {
+    color: unset;
+    text-decoration: none;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 420px;
+    height: 236px;
+    margin: 0 auto;
+}
+
+.more-icon {
+    width: 89px;
+    height: 76px;
+    background-image: url(../../assets/full-arrow.svg);
+    background-position: center;
+}
+
+.more-text {
+    margin: 34px 0 0;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+}

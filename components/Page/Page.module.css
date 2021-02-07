@@ -4,6 +4,10 @@
     height: 100%;
 }
 
+.page:global(.app-env_desktop) {
+    min-width: 1024px;
+}
+
 .content {
     flex: 1 0 auto;
     padding: 70px 60px;

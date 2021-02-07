@@ -1,17 +1,26 @@
 import React from 'react';
+import CategoryPreview from '../../components/CategoryPreview';
 
-import LecturesCarousel from '../../components/LecturesCarousel';
 import Page from '../../components/Page';
-import Title from '../../components/Title';
-import { getLectures } from '../../helpers/data';
+import { getCategoriesWithLectures } from '../../helpers/data';
+
+import styles from './Index.module.css';
 
 const Index: React.FC = () => {
+    const categories = getCategoriesWithLectures();
+
     return (
         <Page title="Главная">
-            <Title>
-                Главная
-            </Title>
-            <LecturesCarousel lectures={getLectures()} />
+            {categories
+                .filter(category => category.lectures.length > 0)
+                .map(categrory => (
+                    <CategoryPreview
+                        key={categrory.id}
+                        className={styles.category}
+                        categoryWithLectures={categrory}
+                    />
+                ))
+            }
         </Page>
     );
 };

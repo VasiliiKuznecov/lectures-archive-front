@@ -9,6 +9,10 @@
     overflow: visible;
 }
 
+.wrapper :global(.slick-list) :global(.slick-track):only-child {
+    margin-left: 0;
+}
+
 .element {
     margin: 0 auto;
 }
@@ -30,6 +34,10 @@
     opacity: 0;
 }
 
+:global(.app-env_desktop) .wrapper:not(:hover) .arrow-control {
+    opacity: 0;
+}
+
 .arrow-control.prev {
     left: 0;
     transform: rotateZ(180deg);
@@ -43,6 +51,6 @@
     width: 17px;
     height: 24px;
     margin-right: 10px;
-    background-image: url(./assets/arrow.svg);
+    background-image: url(../../assets/arrow.svg);
     background-position: center;
 }
